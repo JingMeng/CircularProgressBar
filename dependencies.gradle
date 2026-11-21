@@ -1,7 +1,7 @@
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 
@@ -11,9 +11,9 @@ ext {
     androidVersionName          = '3.0.3'
 
     // ANDROID VERSION
-    androidCompileSdkVersion    = 29
+    androidCompileSdkVersion    = 34
     androidMinSdkVersion        = 14
-    androidTargetSdkVersion     = 29
+    androidTargetSdkVersion     = 34
 
     // KOTLIN
     kotlinStdlibGroupId         = "org.jetbrains.kotlin"
